@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="vars.css">
+  <link rel="stylesheet" href="main.css">
+  <script src="app.js" defer></script>
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <svg class="top-svg" xmlns="http://www.w3.org/2000/svg" width="375" height="658"><g fill="none" fill-rule="evenodd" stroke="#D0D5F6" stroke-width="2"><path d="M172.71-101C70.623-79.38 17.478-39.688 13.273 18.074c-6.307 86.643 231.598 17.186 136.358 198-95.241 180.813-181.318 185.29-136.358 298C58.233 626.784 178.96 685.954 319.21 641.2c93.501-29.836 144.652-140.545 153.453-332.126"/><path d="M214.7-101C134.617-82.012 92.926-47.154 89.628 3.575c-4.948 76.093 181.679 15.094 106.966 173.89C121.882 336.262 54.36 340.192 89.628 439.18c35.269 98.986 129.974 150.95 239.995 111.646C402.97 524.622 443.096 427.395 450 259.141"/><path d="M250.935-103c-60.604 16.56-92.153 46.963-94.65 91.208-3.743 66.367 137.488 13.165 80.949 151.664-56.54 138.5-107.638 141.927-80.948 228.261 26.69 86.335 98.359 131.656 181.618 97.376C393.41 442.655 423.775 357.855 429 211.108"/></g></svg>
+  <div class="general-container">
+    <h3>Our Pricing</h3>
+    
+    <div class="toggle">
+      <h6>Monthly</h6>
+      
+      <label class="switch">
+        <input id="toggle" type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      
+      <h6>Annually</h6>
+    </div>
+    
+    <div class="cards-container">
+      <div class="basic-card">
+        <h5 class="badge">Basic</h5>
+        
+        <h1 class="month">&dollar;19.99</h1>
+        <h1 class="year hidden">&dollar;199.99</h1>
+        
+        <div class="desc">
+          <h5>500 GB Storage</h5>
+          <h5>2 Users Allowed</h5>
+          <h5>Send up to 3 GB</h5>
+        </div>
+        
+        <button>Learn More</button>
+      </div>
+    
+      <div class="professional-card">
+        <h5 class="badge">Professional</h5>
+        
+        <h1 class="month">&dollar;24.99</h1>
+        <h1 class="year hidden">&dollar;249.99</h1>
+        
+        <div class="desc">
+          <h5>1 TB Storage</h5>
+          <h5>5 Users Allowed</h5>
+          <h5>Send up to 10 GB</h5>
+        </div>
+        
+        <button id="professional-btn">Learn More</button>
+      </div>
+    
+      <div class="master-card">
+        <h5 class="badge">Master</h5>
+        
+        <h1 class="month">&dollar;39.99</h1>
+        <h1 class="year hidden">&dollar;399.99</h1>
+        
+        <div class="desc">
+          <h5>2 TB Storage</h5>
+          <h5>10 Users Allowed</h5>
+          <h5>Send up to 20 GB</h5>
+        </div>
+        
+        <button>Learn More</button>
+      </div>
+    </div>
+
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
