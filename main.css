@@ -34,20 +34,20 @@ body {
 }
 
 .general-container {
-    margin: 5rem auto 5rem auto;
+    margin: 4rem auto 4rem auto;
     display: grid;
     justify-content: center;
     width: max-content;
 }
 
 h3 {
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--dark-gray-blue);
     text-align: center;
 }
 
 .toggle {
-    margin: 3rem 0 3rem 0;
+    margin: 2rem 0 2rem 0;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -55,7 +55,7 @@ h3 {
 }
 
 .toggle h6 {
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     color: var(--light-gray-blue);
 }
 
@@ -65,8 +65,8 @@ h3 {
 .switch {
   position: relative;
   display: inline-block;
-  width: 60px;
-  height: 34px;
+  width: 40px;
+  height: 22px;
 }
 
 /* Hide default HTML checkbox */
@@ -92,10 +92,10 @@ h3 {
 .slider:before {
   position: absolute;
   content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
+  height: 16px;
+  width: 16px;
+  left: 3px;
+  bottom: 3px;
   background-color: white;
   -webkit-transition: .4s;
   transition: .4s;
@@ -110,9 +110,9 @@ input:focus + .slider {
 }
 
 input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
+  -webkit-transform: translateX(16px);
+  -ms-transform: translateX(16px);
+  transform: translateX(16px);
 }
 
 /* Rounded sliders */
@@ -131,8 +131,8 @@ input:checked + .slider:before {
   flex-direction: column;
   justify-content: center;
   height: max-content;
-  padding: 3.5rem 3rem 3.5rem 3rem;
-  margin: 3.5rem auto 3.5rem auto;
+  padding: 2.4rem 2rem 2.4rem 2rem;
+  margin: 2rem auto 2rem auto;
   border-radius: 10px;
   background-color: white;
   color: var(--dark-gray-blue);
@@ -141,11 +141,11 @@ input:checked + .slider:before {
 
 .cards-container > div h5,
 .cards-container > div h5 {
-  font-size: 1.3rem;
+  font-size: 0.8rem;
   color: var(--gray-blue);
   text-align: center;
-  width: 300px;
-  padding: 1.5rem 0 1.5rem 0;
+  width: 230px;
+  padding: 1rem 0 1rem 0;
   border-bottom: 1px solid var(--light-gray-blue);
 }
 
@@ -162,21 +162,21 @@ input:checked + .slider:before {
 
 .cards-container > div h1,
 .cards-container > div h1 {
-  font-size: 4.5rem;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  font-size: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 .cards-container div button {
   text-transform: uppercase;
   color: white;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-family: inherit;
   letter-spacing: 2px;
   background-image: linear-gradient(to right, var(--gradient));
-  padding: 1rem 3rem 1rem 3rem;
-  margin-top: 3.5rem;
+  padding: 0.7rem 2rem 0.7rem 2rem;
+  margin-top: 2.2rem;
   border: none;
   border-radius: 10px;
 }

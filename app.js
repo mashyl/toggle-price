@@ -1,4 +1,5 @@
 const toggleBtn = document.getElementById('toggle');
+const toggleTab = document.querySelector('.switch');
 const basicMonthly = document.querySelector('.basic-card .month');
 const basicYearly = document.querySelector('.basic-card .year');
 const profMonthly = document.querySelector('.professional-card .month');
@@ -7,6 +8,13 @@ const masterMonthly = document.querySelector('.master-card .month');
 const masterYearly = document.querySelector('.master-card .year');
 
 let toggled = false;
+
+toggleTab.addEventListener('keydown', (event) => {
+    if (event.keyCode === 9) {
+        toggleBtn.click();
+        event.preventDefault();
+    }
+});
 
 toggleBtn.addEventListener('click', () => {
     console.log('clicked')
