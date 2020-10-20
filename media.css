@@ -1,0 +1,19 @@
+@media (min-width: 40rem) {
+    svg.hidden {
+        display: block;
+        position: fixed;
+        z-index: -1;
+        bottom: 0;
+    }
+
+    .cards-container {
+        display: grid;
+        grid-template-columns: repeat(3, min-content);
+        align-items: center;
+    }
+
+    .cards-container > div.basic-card,
+    .cards-container > div.master-card {
+        padding: 1rem 2rem 1rem 2rem;
+    }
+}

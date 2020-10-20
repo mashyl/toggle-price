@@ -10,14 +10,15 @@ const masterYearly = document.querySelector('.master-card .year');
 let toggled = false;
 
 toggleTab.addEventListener('keydown', (event) => {
-    if (event.keyCode === 9) {
+    code = (event.keyCode)? event.keyCode: event.charCode;
+    console.log(code)
+    if (code === 9) {
         toggleBtn.click();
         event.preventDefault();
     }
 });
 
 toggleBtn.addEventListener('click', () => {
-    console.log('clicked')
     if (!toggled) {
         toggled = true;
         
