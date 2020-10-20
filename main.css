@@ -179,7 +179,7 @@ input:checked + .slider:before {
   background-image: linear-gradient(to right, var(--gradient));
   padding: 0.7rem 2rem 0.7rem 2rem;
   margin-top: 2.2rem;
-  border: 1px solid transparent;
+  border: 1px solid white;
   border-radius: 10px;
 }
 
